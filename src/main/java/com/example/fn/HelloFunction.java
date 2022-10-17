@@ -59,10 +59,10 @@ public class HelloFunction {
     DataSource getDataSource() throws SQLException {
         MysqlDataSource dataSource = new MysqlDataSource();
         dataSource.setDatabaseName("mysql");
-        dataSource.setServerName("192.168.31.8");
+        dataSource.setServerName("localhost");
         dataSource.setPort(3306);
         dataSource.setUser("root");
-        dataSource.setPassword("oracle");
+        dataSource.setPassword("root");
         dataSource.setServerTimezone("UTC");
 
         return dataSource;
